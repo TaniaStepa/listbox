@@ -28,7 +28,7 @@ namespace listbox
             if (listBox1.SelectedItem != null)
             {
                 if (listBox1.SelectedIndex == 6)
-                    label2.Text = "Ура! Сьогодні у нас  " + listBox1.SelectedItem;
+                    label2.Text = "Ура! Сьогодні у нас вихідний, а саме " + listBox1.SelectedItem;
                 else
                     label2.Text = "Сьогодні у нас " + listBox1.SelectedItem;
             }
