@@ -30,7 +30,7 @@ namespace listbox
                 if (listBox1.SelectedIndex == 6)
                     label2.Text = "Ура! Сьогодні у нас  " + listBox1.SelectedItem;
                 else
-                    label2.Text = "Сьогодні у нас  " + listBox1.SelectedItem;
+                    label2.Text = "Сьогодні у нас " + listBox1.SelectedItem;
             }
             else
                 MessageBox.Show("Елемент не вибраний із списку", "Помилка");
